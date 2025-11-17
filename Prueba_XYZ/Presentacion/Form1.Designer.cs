@@ -48,12 +48,12 @@
             this.productosMásVendidosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cierreDeCajaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnVentaRapida = new System.Windows.Forms.Button();
-            this.btnProductos = new System.Windows.Forms.Button();
-            this.btnClientes = new System.Windows.Forms.Button();
-            this.btnInventario = new System.Windows.Forms.Button();
-            this.btnCorte = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
+            this.btnCorte = new System.Windows.Forms.Button();
+            this.btnInventario = new System.Windows.Forms.Button();
+            this.btnClientes = new System.Windows.Forms.Button();
+            this.btnProductos = new System.Windows.Forms.Button();
+            this.btnVentaRapida = new System.Windows.Forms.Button();
             this.panelCentral = new System.Windows.Forms.Panel();
             this.logoPOS = new System.Windows.Forms.PictureBox();
             this.menuSuperior.SuspendLayout();
@@ -91,7 +91,7 @@
             // productosToolStripMenuItem
             // 
             this.productosToolStripMenuItem.Name = "productosToolStripMenuItem";
-            this.productosToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.productosToolStripMenuItem.Size = new System.Drawing.Size(143, 24);
             this.productosToolStripMenuItem.Text = "Productos";
             // 
             // categoríasToolStripMenuItem
@@ -102,7 +102,7 @@
             this.postresToolStripMenuItem,
             this.reposteríaToolStripMenuItem});
             this.categoríasToolStripMenuItem.Name = "categoríasToolStripMenuItem";
-            this.categoríasToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.categoríasToolStripMenuItem.Size = new System.Drawing.Size(143, 24);
             this.categoríasToolStripMenuItem.Text = "Categorías";
             // 
             // bebidasCalientesToolStripMenuItem
@@ -132,19 +132,19 @@
             // insumosToolStripMenuItem
             // 
             this.insumosToolStripMenuItem.Name = "insumosToolStripMenuItem";
-            this.insumosToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.insumosToolStripMenuItem.Size = new System.Drawing.Size(143, 24);
             this.insumosToolStripMenuItem.Text = "Insumos";
             // 
             // recetasToolStripMenuItem
             // 
             this.recetasToolStripMenuItem.Name = "recetasToolStripMenuItem";
-            this.recetasToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.recetasToolStripMenuItem.Size = new System.Drawing.Size(143, 24);
             this.recetasToolStripMenuItem.Text = "Recetas";
             // 
             // clientesToolStripMenuItem
             // 
             this.clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
-            this.clientesToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.clientesToolStripMenuItem.Size = new System.Drawing.Size(143, 24);
             this.clientesToolStripMenuItem.Text = "Clientes";
             // 
             // ventasToolStripMenuItem
@@ -159,13 +159,13 @@
             // registrarVentasToolStripMenuItem
             // 
             this.registrarVentasToolStripMenuItem.Name = "registrarVentasToolStripMenuItem";
-            this.registrarVentasToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.registrarVentasToolStripMenuItem.Size = new System.Drawing.Size(177, 24);
             this.registrarVentasToolStripMenuItem.Text = "Registrar Ventas";
             // 
             // historialVentasToolStripMenuItem
             // 
             this.historialVentasToolStripMenuItem.Name = "historialVentasToolStripMenuItem";
-            this.historialVentasToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.historialVentasToolStripMenuItem.Size = new System.Drawing.Size(177, 24);
             this.historialVentasToolStripMenuItem.Text = "Historial Ventas";
             // 
             // reportesToolStripMenuItem
@@ -212,61 +212,18 @@
             this.panel1.Size = new System.Drawing.Size(200, 634);
             this.panel1.TabIndex = 1;
             // 
-            // btnVentaRapida
+            // btnSalir
             // 
-            this.btnVentaRapida.BackColor = System.Drawing.Color.Bisque;
-            this.btnVentaRapida.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnVentaRapida.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.btnVentaRapida.Image = ((System.Drawing.Image)(resources.GetObject("btnVentaRapida.Image")));
-            this.btnVentaRapida.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnVentaRapida.Location = new System.Drawing.Point(12, 10);
-            this.btnVentaRapida.Margin = new System.Windows.Forms.Padding(3, 10, 3, 10);
-            this.btnVentaRapida.Name = "btnVentaRapida";
-            this.btnVentaRapida.Size = new System.Drawing.Size(180, 55);
-            this.btnVentaRapida.TabIndex = 0;
-            this.btnVentaRapida.Text = "Venta Rapida";
-            this.btnVentaRapida.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnVentaRapida.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.btnVentaRapida.UseVisualStyleBackColor = false;
-            // 
-            // btnProductos
-            // 
-            this.btnProductos.BackColor = System.Drawing.Color.Bisque;
-            this.btnProductos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnProductos.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.btnProductos.Location = new System.Drawing.Point(12, 76);
-            this.btnProductos.Margin = new System.Windows.Forms.Padding(3, 10, 3, 10);
-            this.btnProductos.Name = "btnProductos";
-            this.btnProductos.Size = new System.Drawing.Size(180, 55);
-            this.btnProductos.TabIndex = 1;
-            this.btnProductos.Text = "Productos";
-            this.btnProductos.UseVisualStyleBackColor = false;
-            // 
-            // btnClientes
-            // 
-            this.btnClientes.BackColor = System.Drawing.Color.Bisque;
-            this.btnClientes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClientes.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.btnClientes.Location = new System.Drawing.Point(12, 140);
-            this.btnClientes.Margin = new System.Windows.Forms.Padding(3, 10, 3, 10);
-            this.btnClientes.Name = "btnClientes";
-            this.btnClientes.Size = new System.Drawing.Size(180, 55);
-            this.btnClientes.TabIndex = 2;
-            this.btnClientes.Text = "Registrar Cliente";
-            this.btnClientes.UseVisualStyleBackColor = false;
-            // 
-            // btnInventario
-            // 
-            this.btnInventario.BackColor = System.Drawing.Color.Bisque;
-            this.btnInventario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnInventario.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.btnInventario.Location = new System.Drawing.Point(12, 204);
-            this.btnInventario.Margin = new System.Windows.Forms.Padding(3, 10, 3, 10);
-            this.btnInventario.Name = "btnInventario";
-            this.btnInventario.Size = new System.Drawing.Size(180, 55);
-            this.btnInventario.TabIndex = 3;
-            this.btnInventario.Text = "Ver Stock";
-            this.btnInventario.UseVisualStyleBackColor = false;
+            this.btnSalir.BackColor = System.Drawing.Color.BurlyWood;
+            this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.btnSalir.Location = new System.Drawing.Point(12, 334);
+            this.btnSalir.Margin = new System.Windows.Forms.Padding(3, 10, 3, 10);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(180, 55);
+            this.btnSalir.TabIndex = 5;
+            this.btnSalir.Text = "Salir";
+            this.btnSalir.UseVisualStyleBackColor = false;
             // 
             // btnCorte
             // 
@@ -281,18 +238,58 @@
             this.btnCorte.Text = "Corte de Caja";
             this.btnCorte.UseVisualStyleBackColor = false;
             // 
-            // btnSalir
+            // btnInventario
             // 
-            this.btnSalir.BackColor = System.Drawing.Color.BurlyWood;
-            this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.btnSalir.Location = new System.Drawing.Point(12, 334);
-            this.btnSalir.Margin = new System.Windows.Forms.Padding(3, 10, 3, 10);
-            this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(180, 55);
-            this.btnSalir.TabIndex = 5;
-            this.btnSalir.Text = "Salir";
-            this.btnSalir.UseVisualStyleBackColor = false;
+            this.btnInventario.BackColor = System.Drawing.Color.Bisque;
+            this.btnInventario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnInventario.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.btnInventario.Location = new System.Drawing.Point(12, 204);
+            this.btnInventario.Margin = new System.Windows.Forms.Padding(3, 10, 3, 10);
+            this.btnInventario.Name = "btnInventario";
+            this.btnInventario.Size = new System.Drawing.Size(180, 55);
+            this.btnInventario.TabIndex = 3;
+            this.btnInventario.Text = "Ver Stock";
+            this.btnInventario.UseVisualStyleBackColor = false;
+            // 
+            // btnClientes
+            // 
+            this.btnClientes.BackColor = System.Drawing.Color.Bisque;
+            this.btnClientes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClientes.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.btnClientes.Location = new System.Drawing.Point(12, 140);
+            this.btnClientes.Margin = new System.Windows.Forms.Padding(3, 10, 3, 10);
+            this.btnClientes.Name = "btnClientes";
+            this.btnClientes.Size = new System.Drawing.Size(180, 55);
+            this.btnClientes.TabIndex = 2;
+            this.btnClientes.Text = "Registrar Cliente";
+            this.btnClientes.UseVisualStyleBackColor = false;
+            // 
+            // btnProductos
+            // 
+            this.btnProductos.BackColor = System.Drawing.Color.Bisque;
+            this.btnProductos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnProductos.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.btnProductos.Location = new System.Drawing.Point(12, 76);
+            this.btnProductos.Margin = new System.Windows.Forms.Padding(3, 10, 3, 10);
+            this.btnProductos.Name = "btnProductos";
+            this.btnProductos.Size = new System.Drawing.Size(180, 55);
+            this.btnProductos.TabIndex = 1;
+            this.btnProductos.Text = "Productos";
+            this.btnProductos.UseVisualStyleBackColor = false;
+            // 
+            // btnVentaRapida
+            // 
+            this.btnVentaRapida.BackColor = System.Drawing.Color.Bisque;
+            this.btnVentaRapida.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVentaRapida.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.btnVentaRapida.Location = new System.Drawing.Point(12, 10);
+            this.btnVentaRapida.Margin = new System.Windows.Forms.Padding(3, 10, 3, 10);
+            this.btnVentaRapida.Name = "btnVentaRapida";
+            this.btnVentaRapida.Size = new System.Drawing.Size(180, 55);
+            this.btnVentaRapida.TabIndex = 0;
+            this.btnVentaRapida.Text = "Venta Rapida";
+            this.btnVentaRapida.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.btnVentaRapida.UseVisualStyleBackColor = false;
             // 
             // panelCentral
             // 
