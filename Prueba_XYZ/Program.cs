@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Prueba_XYZ.Presentacion;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,7 +17,7 @@ namespace Prueba_XYZ
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmMenuPrincipal());
+            Application.Run(new FrmCategoria());
         }
     }
 }

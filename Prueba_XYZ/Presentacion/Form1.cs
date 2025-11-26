@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Prueba_XYZ.Presentacion;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -20,6 +21,17 @@ namespace Prueba_XYZ
         private void ventaDelDpiaToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnProductos_Click(object sender, EventArgs e)
+        {
+            FrmProductos frm = new FrmProductos();
+            frm.Show();
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
