@@ -107,5 +107,36 @@ namespace Prueba_XYZ.Datos
             }
             return dt;
         }
+        // Metodo para listar clientes activos, Este método sirve para llenar el ComboBox de clientes.
+        public static List<Cliente> ListarActivos()
+        {
+            List<Cliente> lista = new List<Cliente>();
+
+            using (SqlConnection con = new SqlConnection(Conexion.Cadena))
+            {
+                string sql = "SELECT * FROM Cliente WHERE Estado = 1";
+
+                using (SqlCommand cmd = new SqlCommand(sql, con))
+                {
+                    con.Open();
+                    using (SqlDataReader dr = cmd.ExecuteReader())
+                    {
+                        while (dr.Read())
+                        {
+                            lista.Add(new Cliente
+                            {
+                                Id = Convert.ToInt32(dr["Id"]),
+                                Nombre = dr["Nombre"].ToString(),
+                                Dui = dr["Dui"].ToString(),
+                                Telefono = dr["Telefono"].ToString(),
+                                Correo = dr["Correo"].ToString(),
+                                Estado = Convert.ToBoolean(dr["Estado"])
+                            });
+                        }
+                    }
+                }
+            }
+            return lista;
+        }
     }
 }
